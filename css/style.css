@@ -31,9 +31,13 @@ img {
     max-width: 100%;
 }
 
+a {
+    display: inline-block;
+}
+
 .button {
     border-radius: 50px;
-    padding: 10px;
+    padding: 10px 50px;
 
 }
 
@@ -41,8 +45,19 @@ img {
     background-color: white;
 }
 
+.blue-btn {
+    text-decoration: none;
+    background-color: #0084FD;
+    color: white;
+
+}
+
 .blue-bg {
     background-color: #0084FD;
+}
+
+.light-blue-bg {
+    background-color: #B5DDFF;
 }
 
 .blue-color {
@@ -53,11 +68,36 @@ img {
     color: white;
 }
 
+.col {
+    width: 100%;
+}
+
+.card {
+    padding: 20px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.mar-bot-20 {
+    margin-bottom: 20px;
+}
+
+.mar-bot-40 {
+    margin-bottom: 40px;
+}
+
+.border-rd-20 {
+    border-radius: 20px;
+}
+
 
 /* HEADER */
 
 header {
     color: white;
+
 
 }
 
@@ -98,13 +138,41 @@ header .row>* {
 
 /* MAIN */
 
+
+
+#features-section .card:last-child {
+    position: relative;
+}
+
+#features-section .card img {
+    position: relative;
+    top: 24px;
+
+}
+
+
+
+
 /* FOOTER */
 
 
 /* RESPONSIVE */
 
 /* tablet */
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+    .col-desktop-1-3 {
+        width: calc(100% / 3);
+    }
+
+    .col-desktop-2-3 {
+        width: calc((100% / 3) * 2);
+
+    }
+
+    #features-section .card .col-desktop-1-2>div {
+        text-align: left;
+    }
+}
 
 /* desktop */
 @media screen and (min-width: 992px) {
@@ -123,6 +191,10 @@ header .row>* {
 
 
 
+    .col-desktop-1-2 {
+        width: 50%;
+    }
+
 }
 
 
@@ -135,4 +207,10 @@ header .row>* {
 
 /* .debug .logo {
     color: white;
+} */
+
+/* .debug main .col {
+
+    background-color: aquamarine;
+    border: 2px dashed red;
 } */
