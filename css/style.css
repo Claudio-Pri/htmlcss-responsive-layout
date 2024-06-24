@@ -14,9 +14,76 @@ html {
 /* 
     GENERAL
 */
+
+/* mobile container */
 .container {
-    max-width: 1000px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* HEADER */
+
+header {
+    color: white;
+
+}
+
+header .row {
+    justify-content: space-between;
+}
+
+.desktop-menu ul {
+    display: none;
+    list-style: none;
+}
+
+.desktop-menu ul li {
+    display: inline-block;
+}
+
+.desktop-menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+/* MAIN */
+
+/* FOOTER */
+
+
+/* RESPONSIVE */
+
+/* tablet */
+@media screen and (min-width: 576px) {}
+
+/* desktop */
+@media screen and (min-width: 992px) {
+    .mobile-menu {
+        display: none;
+    }
+
+    .desktop-menu ul {
+        display: block;
+    }
+
+
+}
+
+
 /* DEBUG */
+
+.debug header {
+    background-color: aqua;
+
+}
+
+.debug .logo {
+    color: white;
+}
