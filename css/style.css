@@ -68,12 +68,20 @@ a {
     color: white;
 }
 
+.gray-txt {
+    color: #5A6E7F;
+
+}
+
 .col {
     width: 100%;
+
 }
 
 .card {
     padding: 20px;
+    height: 100%;
+
 }
 
 .center-text {
@@ -97,6 +105,7 @@ a {
 
 header {
     color: white;
+    padding: 5px 0;
 
 
 }
@@ -144,11 +153,20 @@ header .row>* {
     position: relative;
 }
 
+
+
 #features-section .card img {
     position: relative;
     top: 24px;
 
 }
+
+#features-section .row {
+    justify-content: space-between;
+
+}
+
+
 
 
 
@@ -161,12 +179,11 @@ header .row>* {
 /* tablet */
 @media screen and (min-width: 576px) {
     .col-desktop-1-3 {
-        width: calc(100% / 3);
+        width: 32%;
     }
 
     .col-desktop-2-3 {
-        width: calc((100% / 3) * 2);
-
+        width: 65%
     }
 
     #features-section .card .col-desktop-1-2>div {
