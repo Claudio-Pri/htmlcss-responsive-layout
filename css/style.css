@@ -22,6 +22,8 @@ html {
 }
 
 
+
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -56,6 +58,10 @@ a {
     background-color: #0084FD;
 }
 
+.violet-bg {
+    background-color: #9792E4;
+}
+
 .light-blue-bg {
     background-color: #B5DDFF;
 }
@@ -72,6 +78,11 @@ a {
     color: #5A6E7F;
 
 }
+
+.violet-txt {
+    background-color: #9792E4;
+}
+
 
 .col {
     width: 100%;
@@ -166,6 +177,14 @@ header .row>* {
 
 }
 
+#work-flow-section {
+    padding: 40px 0;
+}
+
+#work-flow-section h2 {
+    font-size: 2.5rem;
+}
+
 
 
 
@@ -193,6 +212,10 @@ header .row>* {
 
 /* desktop */
 @media screen and (min-width: 992px) {
+    .small-container {
+        max-width: 80%;
+        margin: 0 auto;
+    }
 
     .container {
         max-width: 900px;
