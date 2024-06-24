@@ -54,6 +54,12 @@ a {
 
 }
 
+.violet-btn {
+    text-decoration: none;
+    background-color: #9792E4;
+    color: black;
+}
+
 .blue-bg {
     background-color: #0084FD;
 }
@@ -64,6 +70,10 @@ a {
 
 .light-blue-bg {
     background-color: #B5DDFF;
+}
+
+.white-bg {
+    background-color: white;
 }
 
 .blue-color {
@@ -90,7 +100,7 @@ a {
 }
 
 .card {
-    padding: 20px;
+    padding: 40px 20px;
     height: 100%;
 
 }
@@ -105,6 +115,10 @@ a {
 
 .mar-bot-40 {
     margin-bottom: 40px;
+}
+
+.mar-bot-80 {
+    margin-bottom: 80px;
 }
 
 .border-rd-20 {
@@ -158,22 +172,28 @@ header .row>* {
 
 /* MAIN */
 
-
-
-#features-section .card:last-child {
-    position: relative;
-}
-
-
-
-#features-section .card img {
-    position: relative;
-    top: 24px;
-
-}
-
 #features-section .row {
     justify-content: space-between;
+    position: relative;
+
+}
+
+#features-section .row .img-container {
+    position: relative;
+    top: 44px;
+
+}
+
+
+/* second section ======= da allineare il texto della prima colonna===== */
+#work-flow-section .col-desktop-1-2 .offset .card {
+    text-align: center;
+}
+
+#work-flow-section .button.violet-btn {
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
 
 }
 
@@ -184,6 +204,10 @@ header .row>* {
 #work-flow-section h2 {
     font-size: 2.5rem;
 }
+
+
+
+
 
 
 
@@ -234,6 +258,17 @@ header .row>* {
     .col-desktop-1-2 {
         width: 50%;
     }
+
+    .offset {
+        padding-top: 200px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 100%;
+    }
+
+
+
+
 
 }
 
