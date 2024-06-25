@@ -128,7 +128,7 @@ h2 {
 }
 
 i {
-    margin-right: 10px;
+    margin: 0 10px;
 }
 
 /* HEADER */
@@ -339,6 +339,65 @@ header .row>* {
 
 /* FOOTER */
 
+#footer-top {
+    padding: 40px 0;
+}
+
+#footer-top h4 {
+    color: #CFCDF2;
+    font-size: 1.5rem;
+
+}
+
+#footer-top h3 {
+    font-size: 2rem;
+
+}
+
+#footer-top h2 {
+    color: #FDC15F;
+    font-size: 4rem;
+
+}
+
+#footer-top p {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    font-weight: 600;
+
+}
+
+#footer-top .button {
+    border: none;
+    padding: 0;
+
+}
+
+#footer-top .button a {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #9792E4;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+#footer-top .copyright a {
+    color: white;
+
+}
+
+#footer-top .copyright p {
+    font-size: 0.8rem;
+}
+
+#footer-top .copyright p i {
+    font-size: 0.5rem
+}
+
+
+
+
 
 /* RESPONSIVE */
 
@@ -385,8 +444,13 @@ header .row>* {
 
 /* desktop */
 @media screen and (min-width: 992px) {
-    .small-container {
+    #work-flow-section .small-container {
         max-width: 80%;
+        margin: 0 auto;
+    }
+
+    #footer-top .small-container {
+        max-width: 40%;
         margin: 0 auto;
     }
 
