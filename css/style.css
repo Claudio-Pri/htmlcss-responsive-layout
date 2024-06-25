@@ -41,7 +41,7 @@ a {
 
 .button {
     border-radius: 50px;
-    padding: 10px 50px;
+    padding: 10px 20px;
 
 }
 
@@ -59,7 +59,7 @@ a {
 .violet-btn {
     text-decoration: none;
     background-color: #9792E4;
-    color: black;
+    color: white;
     border: none;
 }
 
@@ -125,6 +125,10 @@ a {
 
 h2 {
     font-size: 2.5rem;
+}
+
+i {
+    margin-right: 10px;
 }
 
 /* HEADER */
@@ -203,11 +207,19 @@ header .row>* {
 
 #work-flow-section .button.violet-btn {
     padding: 20px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     border: none;
+    color: black;
 
 
 }
+
+#work-flow-section .button.violet-btn>i {
+    margin-right: 0;
+}
+
 
 #work-flow-section {
     padding: 40px 0;
@@ -286,6 +298,43 @@ header .row>* {
 
 }
 
+/* <!-- FIFTH SECTION- ABOUT US --> */
+#about-us-section {
+    padding: 40px 0;
+}
+
+#about-us-section p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+
+#about-us-section .container .col .img-container {
+    text-align: center;
+    position: relative;
+
+}
+
+#about-us-section .container .col .img-container>i {
+    position: absolute;
+    top: 0;
+    left: 63%;
+
+}
+
+#about-us-section .container .col img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+#about-us-section .button.violet-btn {
+    font-weight: bold;
+
+}
+
 
 
 /* FOOTER */
@@ -310,13 +359,15 @@ header .row>* {
 
     .col-tablet-2-5 {
         width: calc((100% / 5) * 2);
-        background-color: lightcoral;
+        padding: 0 10px;
+
 
     }
 
     .col-tablet-3-5 {
         width: calc((100% / 5) * 3);
-        background-color: aqua;
+        padding: 0 10px;
+
     }
 
     #features-section .card .col-desktop-1-2>div {
