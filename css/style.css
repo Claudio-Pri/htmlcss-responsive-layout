@@ -8,7 +8,7 @@
 }
 
 html {
-    font-family: "Roboto", sans-serif;
+    font-family: "PT Sans", sans-serif;
 }
 
 /* 
@@ -286,6 +286,8 @@ header .row>* {
 
 }
 
+
+
 /* FOOTER */
 
 
@@ -306,8 +308,21 @@ header .row>* {
         width: 48%;
     }
 
+    .col-tablet-2-5 {
+        width: calc((100% / 5) * 2);
+        background-color: lightcoral;
+
+    }
+
+    .col-tablet-3-5 {
+        width: calc((100% / 5) * 3);
+        background-color: aqua;
+    }
+
     #features-section .card .col-desktop-1-2>div {
         text-align: left;
+
+
     }
 
     #testimonials-section .row {
