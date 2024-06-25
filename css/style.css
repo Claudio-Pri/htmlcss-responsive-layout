@@ -26,6 +26,11 @@ html {
     flex-wrap: wrap;
 }
 
+.col {
+    width: 100%;
+
+}
+
 img {
     max-width: 100%;
 }
@@ -87,18 +92,15 @@ a {
 }
 
 .violet-txt {
-    background-color: #9792E4;
+    color: #9792E4;
 }
 
 
-.col {
-    width: 100%;
 
-}
 
 .card {
-    padding: 40px 20px;
-    height: 100%;
+    padding: 20px 10px;
+
 
 }
 
@@ -122,6 +124,9 @@ a {
     border-radius: 20px;
 }
 
+h2 {
+    font-size: 2.5rem;
+}
 
 /* HEADER */
 
@@ -177,9 +182,14 @@ header .row>* {
 
 #features-section .row .img-container {
     position: relative;
-    top: 44px;
+    top: 24px;
 
 }
+
+#features-section h2 {
+    font-size: 1.3rem;
+}
+
 
 
 /* second section */
@@ -204,16 +214,42 @@ header .row>* {
     padding: 40px 0;
 }
 
-#work-flow-section h2 {
-    font-size: 2.5rem;
+
+
+/* third section- testimonials */
+
+#testimonials-section .container {
+    text-align: center;
 }
 
+#testimonials-section .container p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+
+#testimonials-section .container h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#testimonials-section .container .card {
+    justify-content: center;
+}
+
+#testimonials-section .container .card .col {
+    padding: 20px;
+}
+
+#testimonials-section .container .card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* rivedere lezione per sistemare immagine su tablet */
 
 
-
-
-
-
+}
 
 
 
@@ -233,6 +269,12 @@ header .row>* {
     }
 
     #features-section .card .col-desktop-1-2>div {
+        text-align: left;
+    }
+
+    #testimonials-section .row {
+
+        align-items: center;
         text-align: left;
     }
 }
@@ -268,11 +310,10 @@ header .row>* {
 
     }
 
-    #work-flow-section .offset .card {}
-
     #work-flow-section .offset .card img {
         width: 80%;
     }
+
 }
 
 
